@@ -1,0 +1,71 @@
+$date
+	Wed Dec 11 17:32:49 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_PriorityEncoder8to3 $end
+$var wire 3 ! Y [2:0] $end
+$var wire 1 " V $end
+$var reg 8 # I [7:0] $end
+$scope module uut $end
+$var wire 8 $ I [7:0] $end
+$var reg 1 " V $end
+$var reg 3 % Y [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10
+1"
+b1 #
+b1 $
+#20
+b1 !
+b1 %
+b10 #
+b10 $
+#30
+b10 !
+b10 %
+b100 #
+b100 $
+#40
+b11 !
+b11 %
+b1000 #
+b1000 $
+#50
+b100 !
+b100 %
+b10000 #
+b10000 $
+#60
+b101 !
+b101 %
+b100000 #
+b100000 $
+#70
+b110 !
+b110 %
+b1000000 #
+b1000000 $
+#80
+b111 !
+b111 %
+b10000000 #
+b10000000 $
+#90
+b11111111 #
+b11111111 $
+#100

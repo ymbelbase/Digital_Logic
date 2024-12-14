@@ -1,0 +1,53 @@
+$date
+	Wed Dec 11 18:21:37 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_RCA16Bit $end
+$var wire 16 ! S [15:0] $end
+$var wire 1 " Cout $end
+$var reg 16 # A [15:0] $end
+$var reg 16 $ B [15:0] $end
+$var reg 1 % Cin $end
+$scope module uut $end
+$var wire 16 & A [15:0] $end
+$var wire 16 ' B [15:0] $end
+$var wire 1 % Cin $end
+$var wire 1 " Cout $end
+$var wire 16 ( carry [15:0] $end
+$var wire 16 ) S [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 )
+bz000000000000001 (
+b1 '
+b1 &
+0%
+b1 $
+b1 #
+0"
+b10 !
+$end
+#10
+1"
+bz111111111111111 (
+b0 !
+b0 )
+b1111111111111111 #
+b1111111111111111 &
+#20
+b0 !
+b0 )
+1%
+b101010101010101 $
+b101010101010101 '
+b1010101010101010 #
+b1010101010101010 &
+#30

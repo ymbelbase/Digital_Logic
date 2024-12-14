@@ -1,0 +1,41 @@
+$date
+	Wed Nov 20 10:03:31 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test_tb $end
+$var wire 1 ! c_o $end
+$var reg 1 " a_i $end
+$var reg 1 # b_i $end
+$scope module uut $end
+$var wire 1 " a_i $end
+$var wire 1 # b_i $end
+$var wire 1 ! c_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+0"
+0!
+$end
+#10000
+1!
+1"
+#20000
+1#
+1!
+0"
+#30000
+0!
+1"
+#40000
+0#
+0!
+0"
+#50000
